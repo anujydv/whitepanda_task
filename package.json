@@ -6,7 +6,7 @@
   "scripts": {
     "build:webpack": "cross-env NODE_ENV=development&&babel-node ./tools/build",
     "build:server": "babel www -d bin webpack.config.dev.js",
-    "serve": "cross-env NODE_ENV=development && node ./bin/server"
+    "start": "cross-env NODE_ENV=development && node ./bin/server"
   },
   "repository": {
     "type": "git",
