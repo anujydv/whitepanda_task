@@ -27,6 +27,7 @@
     "core-js": "^2.6.9",
     "css-loader": "^3.2.0",
     "ejs": "^2.7.1",
+    "cross-env": "^6.0.3",
     "es-collections": "0.0.2",
     "exports-loader": "^0.7.0",
     "express": "^4.17.1",
