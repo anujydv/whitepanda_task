@@ -6,6 +6,6 @@
 
 #npm run build:server
 
-#npm run serve
+#npm run start
 
-##[a link](http:/localhost:3000)
+##http:/localhost:3000
