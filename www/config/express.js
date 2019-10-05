@@ -20,17 +20,4 @@ export default function (app) {
     app.use(express.json());
 
     app.use(express.static(path.resolve(__dirname, "../..", "public")));
-    const webpackConfig = isDev ? require("../webpack.config.dev").default : require("../webpack.config.prod").default;
-    if (isDev) {
-        const webpack = require("webpack");
-        const compiler = webpack(webpackConfig);
-        app.use(require("webpack-dev-middleware")(compiler, {
-            noInfo: false,
-            publicPath: webpackConfig.output.publicPath
-        }));
-        app.use(require("webpack-hot-middleware")(compiler));
-    } else {
-        console.log(webpackConfig.output.path);
-        app.use(express.static(webpackConfig.output.path));
-    }
 }
