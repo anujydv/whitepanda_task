@@ -6,7 +6,7 @@
   "scripts": {
     "build:webpack": "cross-env NODE_ENV=development&&babel-node ./tools/build",
     "build:server": "babel www -d bin webpack.config.dev.js",
-    "start": "cross-env NODE_ENV=development && node ./bin/server"
+    "start": "npm run build:webpack && npm run build:server && cross-env NODE_ENV=development && node ./bin/server"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,6 @@
     "core-js": "^2.6.9",
     "css-loader": "^3.2.0",
     "ejs": "^2.7.1",
-    "cross-env": "^6.0.3",
     "es-collections": "0.0.2",
     "exports-loader": "^0.7.0",
     "express": "^4.17.1",
@@ -40,9 +39,7 @@
     "react-router-dom": "^5.1.2",
     "rimraf": "^3.0.0",
     "style-loader": "^1.0.0",
-    "url-loader": "^2.2.0"
-  },
-  "devDependencies": {
+    "url-loader": "^2.2.0",
     "@babel/cli": "^7.6.2",
     "@babel/core": "^7.6.2",
     "@babel/node": "^7.6.2",
