@@ -1,10 +1,18 @@
-# whitepanda_task
+## whitepanda_task
 
-# npm install 
+# Description
+This is frontend task given by whitepanda which is build using react.
 
-#npm run start
+# SETUP ENV
 
-##http:/localhost:3000
+1.npm install 
 
-##or
-visit : - [a link](https://whitepanda-task.herokuapp.com/)
+# START APP
+
+1. npm run start
+
+## OPEN LINK IN BROWNSE `http:/localhost:3000`
+
+# I Deployed on heroku click on below link
+
+visit:- [a link](https://whitepanda-task.herokuapp.com/)
