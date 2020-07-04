@@ -57,7 +57,7 @@ exports.default = _default2;
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/home/devil/whitepanda_task/www/config/express.js");
+  reactHotLoader.register(_default, "default", "/home/devil/my_repo/whitepanda_task/www/config/express.js");
 })();
 
 ;

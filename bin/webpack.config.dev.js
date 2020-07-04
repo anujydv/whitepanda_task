@@ -59,7 +59,7 @@ exports.default = _default2;
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/home/devil/whitepanda_task/webpack.config.dev.js");
+  reactHotLoader.register(_default, "default", "/home/devil/my_repo/whitepanda_task/webpack.config.dev.js");
 })();
 
 ;

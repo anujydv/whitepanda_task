@@ -40,9 +40,9 @@ exports.default = _default2;
     return;
   }
 
-  reactHotLoader.register(app, "app", "/home/devil/whitepanda_task/www/app.js");
-  reactHotLoader.register(httpServer, "httpServer", "/home/devil/whitepanda_task/www/app.js");
-  reactHotLoader.register(_default, "default", "/home/devil/whitepanda_task/www/app.js");
+  reactHotLoader.register(app, "app", "/home/devil/my_repo/whitepanda_task/www/app.js");
+  reactHotLoader.register(httpServer, "httpServer", "/home/devil/my_repo/whitepanda_task/www/app.js");
+  reactHotLoader.register(_default, "default", "/home/devil/my_repo/whitepanda_task/www/app.js");
 })();
 
 ;

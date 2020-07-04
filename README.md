@@ -1,18 +1,14 @@
-## whitepanda_task
+## WHITEPANDA TASK
 
-# Description
-This is frontend task given by whitepanda which is build using react.
+### Description
+> This is frontend task given by whitepanda which is build using react and webpack.
 
-# SETUP ENV
+#### HOW SETUP ENVIRONMENT?
+  * `npm i`
 
-1.npm install 
+### RUN APP
 
-# START APP
-
-1. npm run start
-
-## OPEN LINK IN BROWNSE `http:/localhost:3000`
-
-# I Deployed on heroku click on below link
-
-visit:- [a link](https://whitepanda-task.herokuapp.com/)
+  * `npm run start`
+  * `http:/localhost:3000`
+           <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    or
+  * Click Given Link :- [Deployed link](https://whitepanda-task.herokuapp.com/)

@@ -32,7 +32,7 @@ _app.default.listen(port, function () {
     return;
   }
 
-  reactHotLoader.register(port, "port", "/home/devil/whitepanda_task/www/server.js");
+  reactHotLoader.register(port, "port", "/home/devil/my_repo/whitepanda_task/www/server.js");
 })();
 
 ;
